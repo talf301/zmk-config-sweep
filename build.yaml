@@ -14,6 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: cradio_left
+    shield: cradio_left_dongle
   - board: nice_nano_v2
-    shield: cradio_right
+    shield: cradio_right_dongle
+  - board: seeeduino_xiao_ble

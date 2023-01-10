@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: talf301
+      url-base: https://github.com/talf301
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: talf301
+      revision: dongle-pr
       import: app/west.yml
   self:
     path: config
