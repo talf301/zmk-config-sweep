@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "cradio_dongle_left.dtsi"
+#include "sweep_dongle_left.dtsi"

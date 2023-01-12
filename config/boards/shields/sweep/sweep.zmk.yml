@@ -1,6 +1,6 @@
 file_format: "1"
 id: cradio
-name: Cradio/Sweep
+name: Sweep
 type: shield
 url: https://github.com/davidphilipbarr/Sweep
 requires: [pro_micro]
@@ -8,6 +8,6 @@ exposes: [i2c_oled]
 features:
   - keys
 siblings:
-  - cradio_dongle_left
-  - cradio_dongle_right
-  - cradio_dongle
+  - sweep_dongle_left
+  - sweep_dongle_right
+  - sweep_dongle
