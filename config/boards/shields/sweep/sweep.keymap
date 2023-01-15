@@ -68,12 +68,12 @@
 		};
 		combo_bkspc {
 			timeout-ms = <30>;
-			key-positions = <23 24>;
+			key-positions = <17 18>;
 			bindings = <&kp BKSP>;
 		};
     		combo_enter {
 			timeout-ms = <30>;
-			key-positions = <18 19>;
+			key-positions = <7 8>;
 			bindings = <&kp RET>;
    		 };
  	 	combo_tab {
@@ -83,7 +83,7 @@
     		};
     		combo_esc {
 			timeout-ms = <30>;
-			key-positions = <6 7>;
+			key-positions = <11 12>;
 			bindings = <&kp ESC>;
 	 	};
 
