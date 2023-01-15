@@ -34,12 +34,12 @@
 		compatible = "zmk,combos";
 		combo_sys {
 			timeout-ms = <30>;
-			key-positions = <3 4 5>;
+			key-positions = <18 19 20>;
 			bindings = <&to SYS>;
 		};
 		combo_caps {
 			timeout-ms = <30>;
-			key-positions = <10 11 12>;
+			key-positions = <23 24 25>;
 			bindings = <&caps_word>;
 		};
 		combo_bt  {
@@ -68,22 +68,22 @@
 		};
 		combo_bkspc {
 			timeout-ms = <30>;
-			key-positions = <11 12>;
+			key-positions = <23 24>;
 			bindings = <&kp BKSP>;
 		};
     		combo_enter {
 			timeout-ms = <30>;
-			key-positions = <4 5>;
+			key-positions = <18 19>;
 			bindings = <&kp RET>;
    		 };
  	 	combo_tab {
 			timeout-ms = <30>;
-			key-positions = <0 1>;
+			key-positions = <1 2>;
 			bindings = <&kp TAB>;
     		};
     		combo_esc {
 			timeout-ms = <30>;
-			key-positions = <7 8>;
+			key-positions = <6 7>;
 			bindings = <&kp ESC>;
 	 	};
 
