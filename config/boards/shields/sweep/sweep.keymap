@@ -69,6 +69,7 @@
 			key-positions = <2 3>;
 			bindings = <&mkp RCLK>;
 			layers = <LSYS>;
+		};
 		combo_bkspc {
 			timeout-ms = <30>;
 			key-positions = <17 18>;
