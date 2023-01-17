@@ -235,9 +235,9 @@
 		
 		lsys {
 			bindings = <
-				&none	&kp(LC(LS(TAB))	&kp UP		&kp RC(TAB)	&none	&none	&none	&none	&none	&none
-				&kp RET	&kp LEFT	&kp DOWN	&kp RIGHT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-							&kp RGUI	&td LG(V) LG(C)			&none	&to AL1	
+				&none	&kp (LC(LS(TAB))	&kp UP		&kp RC(TAB)	&none	&none	&none	&none	&none	&none
+				&kp RET	&kp LEFT		&kp DOWN	&kp RIGHT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+								&kp RGUI	&td LG(V) LG(C)			&none	&to AL1	
 			>;
 		};
 
