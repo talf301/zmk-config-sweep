@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: talf301
-      url-base: https://github.com/talf301
+    - name: benvallack
+      url-base: https://github.com/benvallack
   projects:
     - name: zmk
-      remote: talf301
-      revision: dongle-pr
+      remote: benvallack
+      revision: repeatrollfix-tapdance-macro-mouse-dongle
       import: app/west.yml
   self:
     path: config
