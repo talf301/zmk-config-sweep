@@ -205,14 +205,6 @@
 
 		sym2 {
 		bindings = <
-				&none		&hm_l LCTL LS(LBKT) 	&hm_l LALT LS(RBKT)	&hm_l LGUI LS(PLUS)	&none 	&none	&hm_r RGUI LS(N4) 	&hm_r RALT LS(N5)		&hm_r RCTL LS(N6)	&none	
-				&kp COLON	&kp LS(N7) 		&kp LS(N8)		&kp LS(N9)		&none	&none	&kp LS(N1)		&kp LS(N2)			&kp LS(N3)   	&kp LS(MINUS)	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-									&sr LSHIFT AL1 		&trans 					&kp LS(N9) 			&kp LS(N0)  	 
-		>;
-		};
-
-		sym2 {
-		bindings = <
 				&none		&hm_l LCTL LS(N4) 	&hm_l LALT LS(N5)	&hm_l LGUI LS(N6)	&none 	&none	&hm_r RGUI LS(LBKT) 	&hm_r RALT LS(RBKT)		&hm_r RCTL LS(PLUS)	&none	
 				&kp LS(MINUS)	&kp LS(N1) 		&kp LS(N2)		&kp LS(N3)		&none	&none	&kp LS(N7)		&kp LS(N8)			&kp LS(N9)   		&kp COLON	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 									&kp LS(N9) 		&kp LS(N0) 				&trans 			&trans  	 
