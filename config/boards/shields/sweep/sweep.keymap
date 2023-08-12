@@ -71,12 +71,12 @@
 			bindings = <&mkp RCLK>;
 			layers = <LSYS>;
 		};
-/*		combo_bkspc {
+		combo_del {
 			timeout-ms = <30>;
 			key-positions = <17 18>;
-			bindings = <&kp BKSP>;
+			bindings = <&kp DEL>;
 			layers = <AL1>;
-	}; */
+		};
     		combo_enter {
 			timeout-ms = <30>;
 			key-positions = <7 8>;
@@ -183,7 +183,7 @@
 			bindings = <
 					&none	&hm_l LCTL L	&hm_l LALT G		&hm_l LGUI D	&none	&none	&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	&none  
 				&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R		&hl_l SYS T	&none	&none	&hl_r SYS N	&hl_r SM1 E	&hl_r SM2 A	&hl_r NM1 C	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-								&mt LC(LS(LALT)) SPC	&key_repeat			&sk LSHIFT	&alpha2macro
+								&mt LS SPC	&mt LC(LALT(LGUI)) BKSP			&key_repeat	&alpha2macro
 			>;
 		};
 
