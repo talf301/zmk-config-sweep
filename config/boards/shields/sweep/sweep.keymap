@@ -183,7 +183,7 @@
 			bindings = <
 					&none	&hm_l LCTL L	&hm_l LALT G		&hm_l LGUI D	&none	&none	&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	&none  
 				&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R		&hl_l SYS T	&none	&none	&hl_r SYS N	&hl_r SM1 E	&hl_r SM2 A	&hl_r NM1 C	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-								&mt LSHIFT SPC	&mt LC(LALT(LGUI)) BKSP			&key_repeat	&alpha2macro
+								&mt LSHIFT SPC	&mt LC(LA(LGUI)) BKSP			&key_repeat	&alpha2macro
 			>;
 		};
 
