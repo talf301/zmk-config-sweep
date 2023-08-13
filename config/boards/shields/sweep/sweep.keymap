@@ -191,7 +191,7 @@
 			bindings = <
 				&none	&kp Q	&kp X	&kp V	&none	&none	&kp Y	&kp J		&kp P	&none
 				&kp Z	&kp W	&kp B	&kp F	&none	&none	&kp M	&kp K		&kp COMMA	&kp DOT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-						&caps_alpha2macro	&trans				&none	&to AL1	
+						&caps_alpha2macro	&trans				&trans	&to AL1	
 			>;
 		};
 
@@ -221,8 +221,8 @@
 		
 		sys {
 			bindings = <
-				&none			&kp LG(GRAVE)	&kp LC(LS(TAB))		&kp LG(LS(A))	&none	&none	&kp LC(LS(TAB))		&kp UP		&kp BKSP	&none
-				&kp LG(Z)		&td HOME DEL	&td END LG(LBKT)	&kp LG(RBKT)	&none	&none	&kp LEFT		&kp DOWN	&kp RIGHT	&kp RET	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+				&none			&kp LG(GRAVE)	&kp LC(LS(TAB))		&kp LG(LS(A))	&none	&none	&kp LC(LS(TAB))		&kp UP		&kp LC(TAB)	&none
+				&kp LG(Z)		&td HOME DEL	&td END LG(LBKT)	&kp LG(RBKT)	&none	&none	&kp LEFT		&kp DOWN	&kp RIGHT	&kp LG(LS(A))	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 									&to AL1			&kp LALT			&td LG(V) LG(C)		&kp RGUI
 			>;
 		};
@@ -238,7 +238,7 @@
 		alpha2cap {
 			bindings = <
 				&none		&kp LS(Q)	&kp LS(X)	&kp LS(V)	&none	&none		&kp LS(Y)	&kp LS(J)		&kp LS(P)	&none
-				&kp LS(Z)	&kp LS(W)	&kp LS(B)	&kp LS(F)	&none	&none		&kp LS(M)	&kp LS(K)	&kp APOS	&kp SQT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+				&kp LS(Z)	&kp LS(W)	&kp LS(B)	&kp LS(F)	&none	&none		&kp LS(M)	&kp LS(K)	&kp SQT	&kp DQT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 								&trans		&trans					&trans		&trans
 			>;
 		};
