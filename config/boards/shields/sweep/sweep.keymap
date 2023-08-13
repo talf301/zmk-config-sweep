@@ -183,7 +183,7 @@
 			bindings = <
 					&none	&hm_l LCTL L	&hm_l LALT G		&hm_l LGUI D	&none	&none	&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	&none  
 				&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R		&hl_l SYS T	&none	&none	&hl_r SYS N	&hl_r SM1 E	&hl_r SM2 A	&hl_r NM1 C	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-								&mt LSHIFT SPC	&mt LC(LA(LGUI)) BKSP			&key_repeat	&alpha2macro
+								&mt LSHIFT SPC		&key_repeat			&mt LC(LA(LGUI)) BKSP	&alpha2macro
 			>;
 		};
 
@@ -191,7 +191,7 @@
 			bindings = <
 				&none	&kp Q	&kp X	&kp V	&none	&none	&kp Y	&kp J		&kp P	&none
 				&kp Z	&kp W	&kp B	&kp F	&none	&none	&kp M	&kp K		&kp COMMA	&kp DOT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-						&caps_alpha2macro	&trans			&none	&to AL1	
+						&caps_alpha2macro	&trans				&none	&to AL1	
 			>;
 		};
 
