@@ -181,7 +181,7 @@
 
 		alpha1 {
 			bindings = <
-					&none	&hm_l LCTL L	&hm_l LALT G		&hm_l LGUI D	&none	&none	&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	&none  
+					&none	&hm_l LGUI L	&hm_l LALT G		&hm_l LCTL D	&none	&none	&hm_r RCTL H	&hm_r RALT U	&hm_r RGUI O	&none  
 				&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R		&hl_l SYS T	&none	&none	&hl_r SYS N	&hl_r SM1 E	&hl_r SM2 A	&hl_r NM1 C	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 								&mt LSHIFT SPC		&key_repeat			&mt LC(LA(LGUI)) BKSP	&alpha2macro
 			>;
@@ -205,7 +205,7 @@
 
 		sym2 {
 		bindings = <
-				&none		&hm_l LCTL LS(N4) 	&hm_l LALT LS(N5)	&hm_l LGUI LS(N6)	&none 	&none	&hm_r RGUI LS(LBKT) 	&hm_r RALT LS(RBKT)		&hm_r RCTL LS(PLUS)	&none	
+				&none		&hm_l LGUI LS(N4) 	&hm_l LALT LS(N5)	&hm_l LCTL LS(N6)	&none 	&none	&hm_r RCTL LS(LBKT) 	&hm_r RALT LS(RBKT)		&hm_r RGUI LS(PLUS)	&none	
 				&kp LS(MINUS)	&kp LS(N1) 		&kp LS(N2)		&kp LS(N3)		&none	&none	&kp LS(N7)		&kp LS(N8)			&kp LS(N9)   		&kp COLON	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 									&kp LS(N9) 		&kp LS(N0) 				&trans 			&trans  	 
 		>;
@@ -213,7 +213,7 @@
 
 		num {
 		bindings = <
-				&none		&hm_l LCTL N4	&hm_l LALT N5	&hm_l LGUI N6	&none	&none	&hm_r RGUI LBKT	&hm_r RALT RBKT	&hm_r RCTL PLUS	&none
+				&none		&hm_l LGUI N4	&hm_l LALT N5	&hm_l LCTL N6	&none	&none	&hm_r RCTL LBKT	&hm_r RALT RBKT	&hm_r RGUI PLUS	&none
 				&kp MINUS	&kp N1		&kp N2		&kp N3		&none	&none	&kp N7 		&kp N8		&kp N9		&kp SEMI	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
 								&kp N0 		&kp DOT 				&trans		&trans  	 
 		>;
