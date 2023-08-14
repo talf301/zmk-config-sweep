@@ -191,7 +191,7 @@
 			bindings = <
 				&none	&kp Q	&kp X	&kp V	&none	&none	&kp Y	&kp J		&kp P	&none
 				&kp Z	&kp W	&kp B	&kp F	&none	&none	&kp M	&kp K		&kp COMMA	&kp DOT	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-						&caps_alpha2macro	&trans				&trans	&to AL1	
+						&caps_alpha2macro	&trans				&kp BKSP	&to AL1	
 			>;
 		};
 
