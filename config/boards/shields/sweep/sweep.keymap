@@ -215,7 +215,7 @@
 		bindings = <
 				&none		&hm_l LGUI N4	&hm_l LALT N5	&hm_l LCTL N6	&none	&none	&hm_r RCTL LBKT	&hm_r RALT RBKT	&hm_r RGUI PLUS	&none
 				&kp MINUS	&kp N1		&kp N2		&kp N3		&none	&none	&kp N7 		&kp N8		&kp N9		&kp SEMI	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-								&kp N0 		&kp DOT 				&trans		&trans  	 
+								&mt LSHIFT N0 		&kp DOT 				&mt LC(LA(LGUI)) BKSP		&trans  	 
 		>;
 		};
 		
