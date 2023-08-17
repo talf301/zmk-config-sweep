@@ -207,7 +207,7 @@
 		bindings = <
 				&none		&hm_l LGUI LS(N4) 	&hm_l LALT LS(N5)	&hm_l LCTL LS(N6)	&none 	&none	&hm_r RCTL LS(LBKT) 	&hm_r RALT LS(RBKT)		&hm_r RGUI LS(PLUS)	&none	
 				&kp LS(MINUS)	&kp LS(N1) 		&kp LS(N2)		&kp LS(N3)		&none	&none	&kp LS(N7)		&kp LS(N8)			&kp LS(N9)   		&kp COLON	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-									&kp LS(N9) 		&kp LS(N0) 				&trans 			&trans  	 
+									&kp LS(N9) 		&kp LS(N0) 				&mt LC(LA(LGUI)) BKSP 			&trans  	 
 		>;
 		};
 
@@ -215,7 +215,7 @@
 		bindings = <
 				&none		&hm_l LGUI N4	&hm_l LALT N5	&hm_l LCTL N6	&none	&none	&hm_r RCTL LBKT	&hm_r RALT RBKT	&hm_r RGUI PLUS	&none
 				&kp MINUS	&kp N1		&kp N2		&kp N3		&none	&none	&kp N7 		&kp N8		&kp N9		&kp SEMI	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-								&mt LSHIFT N0 		&kp DOT 				&mt LC(LA(LGUI)) BKSP		&trans  	 
+								&mt LSHIFT N0 		&kp DOT 				&mt LALT BKSP		&trans  	 
 		>;
 		};
 		
